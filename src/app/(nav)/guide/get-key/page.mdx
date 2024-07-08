@@ -1,0 +1,47 @@
+# 配置教程
+
+## 为什么需要配置？
+
+简单来说，在中国大陆的主要地图服务商（高德、百度）均严格收紧免费接口使用条件、次数的情况下，本项目无法**免费且高可用**的服务。使用自己注册的开放平台账号，是让刚需的用户能持续、稳定使用的唯一方法。
+
+## 配置安全吗？
+
+你提供的 key 仅用于你自己的查询，[本项目](https://github.com/daibor/bus-route-radiation-map)仅在你配置 key 的浏览器**本地离线存储**该 key 。
+
+## 会自动产生费用吗？
+
+不会。
+
+注册并认证后，平台提供每天一定数量的免费额度。除非你主动开通授权或购买平台提供的配额包，否则没有任何费用。
+
+## 能用多少次？我需要认证吗？
+
+本项目主要依赖图商的「搜索类」接口，每次查询至少会消耗 1 次。高德地图为已认证的个人开发者提供[每日 100 次的免费调用](https://console.amap.com/dev/user/permission)，百度地图[也是](https://lbsyun.baidu.com/apiconsole/quota/privilege)。如果需要更高的使用量，可以尝试申请企业认证，或与我联系。
+
+单日调用量过大后，可能会收到短信提示「配额报警」等，一般不用管，超额后会自动不可用，次日零点恢复。
+
+## 使用量在哪里看？
+- [高德地图控制台 - 流量分析 - 配额管理](https://console.amap.com/dev/flow/manage)
+- [百度地图控制台 - 额度管理 - 我的额度](https://lbsyun.baidu.com/apiconsole/quota#/home)
+
+## 其他注意事项
+1. 本项目[基于 MIT 协议开源](https://github.com/daibor/bus-route-radiation-map)，免费使用，仅为科研、生活场景提供参考和帮助，非商业用途。
+2. 请保存好你的 key（虽然可能是免费的）
+3. 高德/百度地图的商务人员可能会联系你询问使用情况或购买意向等，请结合自身情况回应，一般也不用管。
+
+---
+
+## 高德地图配置方法（推荐）
+
+跟随[高德地图开发者指南](https://lbs.amap.com/api/javascript-api-v2/prerequisites)操作，完成**开发者注册**，后续步骤参考下方截图。
+
+![](/assets/guide/get-key/step1.png)
+![](/assets/guide/get-key/step2.png)
+![](/assets/guide/get-key/step3.png)
+![](/assets/guide/get-key/step4.png)
+![](/assets/guide/get-key/step5.png)
+![](/assets/guide/get-key/step6.png)
+
+## 百度地图（WIP）
+
+跟随[百度地图开发者指南](https://lbsyun.baidu.com/index.php?title=jspopularGL/guide/getkey)操作，完成**开发者注册**。

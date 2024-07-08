@@ -1,0 +1,5 @@
+.sugList {
+    & > div {
+        @apply text-small;
+    }
+}

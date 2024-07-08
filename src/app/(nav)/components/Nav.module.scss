@@ -1,0 +1,9 @@
+// nav font SmileySans-Oblique.otf
+@font-face {
+    font-family: 'SmileySans-Oblique';
+    src: url('/fonts/SmileySans-Oblique.otf.woff2');
+}
+.brand {
+    font-family: 'SmileySans-Oblique';
+    letter-spacing: 0.1rem;
+}

@@ -1,0 +1,44 @@
+.guide {
+    @apply text-gray-400;
+    padding: 0 calc((100% - min(880px, 100%)) / 2) 80px;
+
+    & h1 {
+        @apply text-3xl mt-6 mb-2 text-black;
+    }
+
+    & h2 {
+        @apply text-xl mt-3 mb-1 text-gray-950;
+    }
+
+    & p {
+        @apply mt-1;
+    }
+
+    & img {
+        @apply my-1;
+    }
+
+    & a {
+        @apply text-blue-500 px-0.5;
+    }
+
+    & hr {
+        @apply my-8;
+    }
+
+    & ol,
+    & ul {
+        @apply my-1.5;
+        padding-inline-start: 2em;
+    }
+
+    & ol > li {
+        list-style: decimal;
+        list-style-position: outside;
+    }
+
+    & ul > li {
+        list-style: disc;
+        list-style-position: outside;
+    }
+}
